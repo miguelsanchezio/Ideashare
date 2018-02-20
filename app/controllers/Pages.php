@@ -7,6 +7,7 @@
         public function index() {
             $data = [
                 'title' => 'SharePosts',
+                'description' => 'Social network built on the PHP MVC framework.'
             ];
 
             $this->view('pages/index', $data);
@@ -14,7 +15,8 @@
 
         public function about() {
             $data = [
-                'title' => 'About us'
+                'title' => 'About us',
+                'description' => 'Share posts with other users.'
             ];
 
             $this->view('pages/about', $data);
