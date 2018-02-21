@@ -12,7 +12,7 @@
     define('URLROOT', 'http://localhost:8888/shareposts');
 
     // Site Name
-    define('SITENAME', 'SharePosts');
+    define('SITENAME', 'IdeaShare');
 
     // App Version
     define('APPVERSION', 'Version: 1.0.0');
